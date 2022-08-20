@@ -1,0 +1,182 @@
+---
+- name: 'a feature file named "p1" with content:'
+  uid: e19e0c74-d7af-45f0-a54b-8932b4783fed
+  parameters:
+  - name: p1
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" imports the feature file "p2" to folder "p3"'
+  uid: 274c81ef-dd36-48de-873b-305492b3bb8d
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" should get a folder "p2" under the folder "p3" with the scenarios:'
+  uid: 12bab4ca-2779-417d-bd5d-ff7121c3b37f
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: two scenarios
+  uid: fc7dc726-7a7c-4814-bcfc-964e5921c788
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" renames globally the step "p2"response"p3" by "p4"response"p5"'
+  uid: 236059c3-4934-4636-bd93-ff71c83e222e
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  - name: p4
+  - name: p5
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'the scenarios using step "p1"response"p2" should be:'
+  uid: d13ee82f-e9fa-4153-a8c7-a880f3263e72
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Bob creates a new step "p1"day"p2"
+  uid: 44a67af0-ad8e-4a86-80a8-2b143119bd73
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: changes the two scenarios as
+  uid: 19919891-d2ce-4e3f-bb74-0897d6222294
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Bob has only the step "p1"day"p2" to maintain instead of these two
+  uid: 860eaafb-5611-473c-8b6f-62e520e3214d
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" adds a new scenario "p2" with the content'
+  uid: 2fcc222e-5944-43a6-830a-6c5827a5fd9c
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the datatable
+  uid: 41261da5-2f56-4349-8695-96148a2f5bf8
+  parameters:
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" has a scenario "p2" to describe the same behaviour than these scenarios'
+  uid: 1d0eb809-2d1c-496b-a79b-35b142755396
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'a folder "p1" with the scenarios:'
+  uid: 7c07e860-b6e0-4783-ae2b-b6f24a25f3ce
+  parameters:
+  - name: p1
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" download folder "p2"'
+  uid: e51c68ec-3597-4f28-bff4-83dd261103d8
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" should get a feature file "p2" with content:'
+  uid: b1b32093-f938-49d4-8789-99706d6909a1
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: user logs in with Riski as username and TrialTest as password
+  uid: '08996afb-451a-4b9b-b385-afe58ec23240'
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: user should be logged in
+  uid: 75b3022d-aef8-46c8-81ee-3f21b1bde610
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user is on the homepage
+  uid: 8aaac1f6-2d2a-49f1-a47c-8ca62366b315
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user clicks on Log In button
+  uid: 6103ce53-383d-4ccf-9c45-1b5001d43d8f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: user logs in with Bob as username and TrialTest as password
+  uid: c8447e7e-23c7-46ba-8d55-1b12d3604956
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: username and password are correct
+  uid: a7e64a12-874c-4857-8c0c-9d2f847b78de
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: user register with informations as
+  uid: 99a6ec5a-c1f2-4109-96a0-dd49e4c82960
+  parameters:
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: user is not pro user
+  uid: dc71e451-e013-4a0b-a69b-7c53267c8e06
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: user open Chartbit
+  uid: 06c57e71-133c-4940-a012-4a07e682a456
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Chartbit is not available
+  uid: 35717d82-5110-4f28-99b2-8cd63a3ba6a6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user search for "p1"
+  uid: c36c9d33-be29-450a-ac51-48525a85969e
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the "p1" stock page should display
+  uid: 465f4132-a58a-4c61-86bf-5d4978c4a459
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user is on watchlist page and the list of stocks
+  uid: 42cee4d3-cbc1-4ee3-9191-5849d51fa029
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the list of stock
+  uid: 10ddc5b6-d807-4ec9-9419-04f380fa85e1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user clicks on X button on one stock on the list
+  uid: f9c4f38e-89bc-421f-9eb7-f4ff6cb89536
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: one item is deleted
+  uid: 52ebca9f-3f1e-42de-b66a-ab001a1f1067
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user confirms to delete
+  uid: 283e9420-ccbd-4516-a3e4-656b56cf42ba
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the stock is deleted from list
+  uid: e30f2ccc-672a-41c2-911d-685203d4b302
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: email is correct, username is available, and password is sufficient
+  uid: 3e2397c3-1873-4e70-b1d4-3074f665a4b0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: user registration is done
+  uid: 623d0976-a8a0-4073-8b95-ae1fcc7e77c2
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
